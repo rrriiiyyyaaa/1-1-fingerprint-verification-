@@ -38,7 +38,7 @@ graph LR
 
 ## Two Main Components
 
-### 1. `fp_server - working/` — C# Fingerprint Scanner Server
+### 1. `fp_server/` — C# Fingerprint Scanner Server
 
 | Aspect | Detail |
 |--------|--------|
@@ -47,7 +47,7 @@ graph LR
 | **Port** | `http://localhost:5220` |
 | **Scanner SDK** | SecuGen FDx SDK Pro (`SecuGen.FDxSDKPro.DotNet.Windows.dll`) |
 
-**Key file:** [Program.cs](file:///b:/final2/fp_server%20-%20working/Program.cs)
+**Key file:** [Program.cs](./fp_server/Program.cs)
 
 **What it does:**
 - Initializes a **SecuGen USB fingerprint scanner** on startup (auto-detect)
@@ -63,7 +63,7 @@ graph LR
 
 ---
 
-### 2. `Group type A/fixed-length-fingerprint-extractors/` — Python AI Backend
+### 2. `Group_type_A/fixed-length-fingerprint-extractors/` — Python AI Backend
 
 | Aspect | Detail |
 |--------|--------|
@@ -72,13 +72,13 @@ graph LR
 | **ML Model** | DeepPrint (Texture + Minutiae branches) |
 | **Embedding Size** | 512 dimensions (256 texture + 256 minutiae) |
 
-**Key file:** [app.py](file:///b:/final2/Group%20type%20%20A/fixed-length-fingerprint-extractors/app.py)
+**Key file:** [app.py](./Group_type_A/fixed-length-fingerprint-extractors/app.py)
 
-This is based on the **[flx](file:///b:/final2/Group%20type%20%20A/fixed-length-fingerprint-extractors/README.md)** research package — a refactored codebase from the BIOSIG 2023 paper on fixed-length fingerprint representations using DeepPrint.
+This is based on the **[flx](./Group_type_A/fixed-length-fingerprint-extractors/README.md)** research package — a refactored codebase from the BIOSIG 2023 paper on fixed-length fingerprint representations using DeepPrint.
 
 #### DeepPrint Model
 
-The model architecture is defined in [deep_print_arch.py](file:///b:/final2/Group%20type%20%20A/fixed-length-fingerprint-extractors/flx/models/deep_print_arch.py):
+The model architecture is defined in [deep_print_arch.py](./Group_type_A/fixed-length-fingerprint-extractors/flx/models/deep_print_arch.py):
 
 - **InceptionV4 backbone** for feature extraction
 - **Texture branch** → 256-dim embedding
@@ -86,9 +86,7 @@ The model architecture is defined in [deep_print_arch.py](file:///b:/final2/Grou
 - Combined → **512-dim fixed-length representation**
 - Input: 299×299 grayscale fingerprint images
 
-Two model checkpoints exist:
-- `models/best_model.pyt` — Pre-trained base model (~876 MB)
-- `models/fine tuned model/best_model_lr0.025.pyt` — Fine-tuned model (~273 MB, **actively used**)
+**Note:** For privacy reasons, the model checkpoints (`.pyt` files) and raw fingerprint image datasets are not included in this repository. They can be provided upon request.
 
 ---
 
@@ -148,12 +146,12 @@ sequenceDiagram
 
 | Page | File | Purpose |
 |------|------|---------|
-| Landing | [index.html](file:///b:/final2/fp_server%20-%20working/wwwroot/index.html) | Dark-themed single-capture page (C# server's static files) |
-| Enrollment | [enroll.html](file:///b:/final2/fp_server%20-%20working/wwwroot/enroll.html) | 6-scan enrollment loop (C# server) |
-| Verify | [verify.html](file:///b:/final2/fp_server%20-%20working/wwwroot/verify.html) | Capture & verify (uses [app.js](file:///b:/final2/fp_server%20-%20working/wwwroot/app.js)) |
-| Python Home | Inline in [app.py](file:///b:/final2/Group%20type%20%20A/fixed-length-fingerprint-extractors/app.py#L271-L318) | Landing page for FastAPI server |
-| Python Enroll | [enroll.html](file:///b:/final2/Group%20type%20%20A/fixed-length-fingerprint-extractors/templates/enroll.html) | Template for Python enrollment |
-| Python Verify | [verify.html](file:///b:/final2/Group%20type%20%20A/fixed-length-fingerprint-extractors/templates/verify.html) | Template for Python verification |
+| Landing | [index.html](./fp_server/wwwroot/index.html) | Dark-themed single-capture page (C# server's static files) |
+| Enrollment | [enroll.html](./fp_server/wwwroot/enroll.html) | 6-scan enrollment loop (C# server) |
+| Verify | [verify.html](./fp_server/wwwroot/verify.html) | Capture & verify (uses [app.js](./fp_server/wwwroot/app.js)) |
+| Python Home | Inline in [app.py](./Group_type_A/fixed-length-fingerprint-extractors/app.py#L271-L318) | Landing page for FastAPI server |
+| Python Enroll | [enroll.html](./Group_type_A/fixed-length-fingerprint-extractors/templates/enroll.html) | Template for Python enrollment |
+| Python Verify | [verify.html](./Group_type_A/fixed-length-fingerprint-extractors/templates/verify.html) | Template for Python verification |
 
 ---
 

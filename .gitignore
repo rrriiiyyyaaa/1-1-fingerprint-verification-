@@ -1,0 +1,16 @@
+# Ignore sensitive fingerprint data
+fp_server/CapturedFingerprints/
+Group_type_A/fixed-length-fingerprint-extractors/database/
+Group_type_A/fixed-length-fingerprint-extractors/temp/
+
+# Ignore ML models due to size and privacy
+Group_type_A/fixed-length-fingerprint-extractors/models/
+
+# Other standard ignores
+.vs/
+bin/
+obj/
+*.pyc
+__pycache__/
+.venv/
+.env
