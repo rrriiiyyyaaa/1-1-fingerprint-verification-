@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\fp_server.props" />
+</Project>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fingerprint Authentication</title>
+
+    <style>
+
+        body{
+            font-family: Arial;
+            text-align:center;
+            margin-top:80px;
+            background:#111;
+            color:white;
+        }
+
+        input{
+            padding:10px;
+            width:220px;
+            font-size:16px;
+        }
+
+        button{
+            padding:10px 25px;
+            font-size:16px;
+            cursor:pointer;
+            margin-top:20px;
+        }
+
+        #status{
+            margin-top:30px;
+            font-size:20px;
+            font-weight:bold;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1>Fingerprint Authentication</h1>
+
+<input id="fingerID" placeholder="Enter User ID">
+
+<br>
+
+<button id="captureBtn">
+    Capture Fingerprint
+</button>
+
+<p id="status"></p>
+
+<script>
+
+document.getElementById("captureBtn")
+.addEventListener("click", async () => {
+
+    let id = document.getElementById("fingerID").value;
+
+    if (!id)
+    {
+        alert("Enter User ID");
+        return;
+    }
+
+    let status = document.getElementById("status");
+
+    status.style.color = "white";
+    status.innerText = "Place finger on scanner...";
+
+    try
+    {
+        let r = await fetch(`/capture?FingerID=${id}`);
+
+        let data = await r.json();
+
+        console.log(data);
+
+        // LOW QUALITY / FAILURE
+        if (data.success === false)
+        {
+            status.style.color = "red";
+
+            status.innerText =
+                "❌ " + data.message;
+
+            return;
+        }
+
+        // SUCCESS
+        status.style.color = "lime";
+
+        status.innerText =
+            "✅ Fingerprint captured successfully";
+    }
+    catch(err)
+    {
+        console.log(err);
+
+        status.style.color = "red";
+
+        status.innerText =
+            "❌ Error calling server";
+    }
+
+});
+
+</script>
+
+</body>
+
+</html>

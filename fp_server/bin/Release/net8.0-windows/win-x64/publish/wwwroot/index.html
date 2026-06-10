@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fingerprint Capture</title>
+</head>
+<body>
+  <h2>Fingerprint Capture</h2>
+  <button onclick="captureFingerprint()">Capture</button>
+  <div id="result"></div>
+  <script>
+    async function captureFingerprint() {
+      try {
+        // Init device
+        let initRes = await fetch("/init");
+        if (!initRes.ok) {
+          document.getElementById("result").innerText = "Init failed!";
+          return;
+        }
+
+        // Capture fingerprint (PNG)
+        let captureRes = await fetch("/capture");
+        if (!captureRes.ok) {
+          document.getElementById("result").innerText = "Capture failed!";
+          return;
+        }
+
+        // Display captured fingerprint
+        let blob = await captureRes.blob();
+        let url = URL.createObjectURL(blob);
+        document.getElementById("result").innerHTML = `<img src="${url}" alt="Fingerprint" />`;
+      } catch (err) {
+        document.getElementById("result").innerText = "Error: " + err;
+      }
+    }
+  </script>
+</body>
+</html>

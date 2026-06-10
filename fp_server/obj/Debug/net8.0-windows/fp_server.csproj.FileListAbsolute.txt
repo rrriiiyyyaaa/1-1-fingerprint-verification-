@@ -1,0 +1,306 @@
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\appsettings.Development.json
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\appsettings.json
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\fp_server.exe
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\sgfpamx.dll
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\sgfplib.dll
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\sgwsqlib.dll
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\fp_server.deps.json
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\fp_server.runtimeconfig.json
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\fp_server.dll
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\fp_server.pdb
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\Microsoft.AspNetCore.OpenApi.dll
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\Microsoft.OpenApi.dll
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.Swagger.dll
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\SecuGen.FDxSDKPro.DotNet.Windows.dll
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\fp_server.csproj.AssemblyReference.cache
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\fp_server.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\fp_server.AssemblyInfoInputs.cache
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\fp_server.AssemblyInfo.cs
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\fp_server.csproj.CoreCompileInputs.cache
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\fp_server.MvcApplicationPartsAssemblyInfo.cs
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\fp_server.MvcApplicationPartsAssemblyInfo.cache
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\staticwebassets.build.json
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\staticwebassets.development.json
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\staticwebassets\msbuild.fp_server.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\staticwebassets\msbuild.build.fp_server.props
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\staticwebassets\msbuild.buildMultiTargeting.fp_server.props
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\staticwebassets\msbuild.buildTransitive.fp_server.props
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\staticwebassets.pack.json
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\scopedcss\bundle\fp_server.styles.css
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\fp_server.csproj.Up2Date
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\fp_server.dll
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\refint\fp_server.dll
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\fp_server.pdb
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\fp_server.genruntimeconfig.cache
+D:\Development\csharp_workspace\fp_server\obj\Debug\net8.0-windows\ref\fp_server.dll
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\fp_server.staticwebassets.runtime.json
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\Microsoft.Win32.SystemEvents.dll
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\System.Drawing.Common.dll
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\System.Private.Windows.Core.dll
+D:\Development\csharp_workspace\fp_server\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\appsettings.Development.json
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\appsettings.json
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\fp_server.staticwebassets.runtime.json
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\fp_server.exe
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\sgfpamx.dll
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\sgfplib.dll
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\sgwsqlib.dll
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\fp_server.deps.json
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\fp_server.runtimeconfig.json
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\fp_server.dll
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\fp_server.pdb
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\Microsoft.OpenApi.dll
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\System.Drawing.Common.dll
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\System.Private.Windows.Core.dll
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\Desktop\fp_server\bin\Debug\net8.0-windows\SecuGen.FDxSDKPro.DotNet.Windows.dll
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\fp_server.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\fp_server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\fp_server.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\fp_server.AssemblyInfo.cs
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\fp_server.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\fp_server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\fp_server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\staticwebassets.build.json
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\staticwebassets.development.json
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\staticwebassets\msbuild.fp_server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\staticwebassets\msbuild.build.fp_server.props
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\staticwebassets\msbuild.buildMultiTargeting.fp_server.props
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\staticwebassets\msbuild.buildTransitive.fp_server.props
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\staticwebassets.pack.json
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\scopedcss\bundle\fp_server.styles.css
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\fp_server.csproj.Up2Date
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\fp_server.dll
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\refint\fp_server.dll
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\fp_server.pdb
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\fp_server.genruntimeconfig.cache
+C:\Users\Admin\Desktop\fp_server\obj\Debug\net8.0-windows\ref\fp_server.dll
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\appsettings.Development.json
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\appsettings.json
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\fp_server.staticwebassets.runtime.json
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\fp_server.exe
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\sgfpamx.dll
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\sgfplib.dll
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\sgwsqlib.dll
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\fp_server.deps.json
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\fp_server.runtimeconfig.json
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\fp_server.dll
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\fp_server.pdb
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\Microsoft.OpenApi.dll
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\System.Drawing.Common.dll
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\System.Private.Windows.Core.dll
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\Desktop\fp_server - Copy\bin\Debug\net8.0-windows\SecuGen.FDxSDKPro.DotNet.Windows.dll
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\fp_server.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\fp_server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\fp_server.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\fp_server.AssemblyInfo.cs
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\fp_server.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\fp_server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\fp_server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\staticwebassets.build.json
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\staticwebassets.development.json
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\staticwebassets\msbuild.fp_server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\staticwebassets\msbuild.build.fp_server.props
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\staticwebassets\msbuild.buildMultiTargeting.fp_server.props
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\staticwebassets\msbuild.buildTransitive.fp_server.props
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\staticwebassets.pack.json
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\scopedcss\bundle\fp_server.styles.css
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\fp_server.csproj.Up2Date
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\fp_server.dll
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\refint\fp_server.dll
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\fp_server.pdb
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\fp_server.genruntimeconfig.cache
+C:\Users\Admin\Desktop\fp_server - Copy\obj\Debug\net8.0-windows\ref\fp_server.dll
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\appsettings.Development.json
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\appsettings.json
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\fp_server.staticwebassets.runtime.json
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\fp_server.staticwebassets.endpoints.json
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\fp_server.exe
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\sgfpamx.dll
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\sgfplib.dll
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\sgwsqlib.dll
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\fp_server.deps.json
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\fp_server.runtimeconfig.json
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\fp_server.dll
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\fp_server.pdb
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\Microsoft.OpenApi.dll
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\System.Drawing.Common.dll
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\System.Private.Windows.Core.dll
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Admin\Desktop\fp_server - working\bin\Debug\net8.0-windows\SecuGen.FDxSDKPro.DotNet.Windows.dll
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\fp_server.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\rpswa.dswa.cache.json
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\fp_server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\fp_server.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\fp_server.AssemblyInfo.cs
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\fp_server.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\fp_server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\fp_server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\rjimswa.dswa.cache.json
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\rjsmrazor.dswa.cache.json
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\rjsmcshtml.dswa.cache.json
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\scopedcss\bundle\fp_server.styles.css
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\staticwebassets.build.json
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\staticwebassets.build.json.cache
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\staticwebassets.development.json
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\staticwebassets.build.endpoints.json
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\swae.build.ex.cache
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\fp_server.csproj.Up2Date
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\fp_server.dll
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\refint\fp_server.dll
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\fp_server.pdb
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\fp_server.genruntimeconfig.cache
+C:\Users\Admin\Desktop\fp_server - working\obj\Debug\net8.0-windows\ref\fp_server.dll
+B:\fp_server - working\bin\Debug\net8.0-windows\appsettings.Development.json
+B:\fp_server - working\bin\Debug\net8.0-windows\appsettings.json
+B:\fp_server - working\bin\Debug\net8.0-windows\fp_server.staticwebassets.runtime.json
+B:\fp_server - working\bin\Debug\net8.0-windows\fp_server.staticwebassets.endpoints.json
+B:\fp_server - working\bin\Debug\net8.0-windows\fp_server.exe
+B:\fp_server - working\bin\Debug\net8.0-windows\sgfpamx.dll
+B:\fp_server - working\bin\Debug\net8.0-windows\sgfplib.dll
+B:\fp_server - working\bin\Debug\net8.0-windows\sgwsqlib.dll
+B:\fp_server - working\bin\Debug\net8.0-windows\fp_server.deps.json
+B:\fp_server - working\bin\Debug\net8.0-windows\fp_server.runtimeconfig.json
+B:\fp_server - working\bin\Debug\net8.0-windows\fp_server.dll
+B:\fp_server - working\bin\Debug\net8.0-windows\fp_server.pdb
+B:\fp_server - working\bin\Debug\net8.0-windows\Microsoft.AspNetCore.OpenApi.dll
+B:\fp_server - working\bin\Debug\net8.0-windows\Microsoft.OpenApi.dll
+B:\fp_server - working\bin\Debug\net8.0-windows\Microsoft.Win32.SystemEvents.dll
+B:\fp_server - working\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.Swagger.dll
+B:\fp_server - working\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerGen.dll
+B:\fp_server - working\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerUI.dll
+B:\fp_server - working\bin\Debug\net8.0-windows\System.Drawing.Common.dll
+B:\fp_server - working\bin\Debug\net8.0-windows\System.Private.Windows.Core.dll
+B:\fp_server - working\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+B:\fp_server - working\bin\Debug\net8.0-windows\SecuGen.FDxSDKPro.DotNet.Windows.dll
+B:\fp_server - working\obj\Debug\net8.0-windows\fp_server.csproj.AssemblyReference.cache
+B:\fp_server - working\obj\Debug\net8.0-windows\rpswa.dswa.cache.json
+B:\fp_server - working\obj\Debug\net8.0-windows\fp_server.GeneratedMSBuildEditorConfig.editorconfig
+B:\fp_server - working\obj\Debug\net8.0-windows\fp_server.AssemblyInfoInputs.cache
+B:\fp_server - working\obj\Debug\net8.0-windows\fp_server.AssemblyInfo.cs
+B:\fp_server - working\obj\Debug\net8.0-windows\fp_server.csproj.CoreCompileInputs.cache
+B:\fp_server - working\obj\Debug\net8.0-windows\fp_server.MvcApplicationPartsAssemblyInfo.cs
+B:\fp_server - working\obj\Debug\net8.0-windows\fp_server.MvcApplicationPartsAssemblyInfo.cache
+B:\fp_server - working\obj\Debug\net8.0-windows\rjimswa.dswa.cache.json
+B:\fp_server - working\obj\Debug\net8.0-windows\rjsmrazor.dswa.cache.json
+B:\fp_server - working\obj\Debug\net8.0-windows\rjsmcshtml.dswa.cache.json
+B:\fp_server - working\obj\Debug\net8.0-windows\scopedcss\bundle\fp_server.styles.css
+B:\fp_server - working\obj\Debug\net8.0-windows\staticwebassets.build.json
+B:\fp_server - working\obj\Debug\net8.0-windows\staticwebassets.build.json.cache
+B:\fp_server - working\obj\Debug\net8.0-windows\staticwebassets.development.json
+B:\fp_server - working\obj\Debug\net8.0-windows\staticwebassets.build.endpoints.json
+B:\fp_server - working\obj\Debug\net8.0-windows\swae.build.ex.cache
+B:\fp_server - working\obj\Debug\net8.0-windows\fp_server.csproj.Up2Date
+B:\fp_server - working\obj\Debug\net8.0-windows\fp_server.dll
+B:\fp_server - working\obj\Debug\net8.0-windows\refint\fp_server.dll
+B:\fp_server - working\obj\Debug\net8.0-windows\fp_server.pdb
+B:\fp_server - working\obj\Debug\net8.0-windows\fp_server.genruntimeconfig.cache
+B:\fp_server - working\obj\Debug\net8.0-windows\ref\fp_server.dll
+B:\final\fp_server - working\bin\Debug\net8.0-windows\appsettings.Development.json
+B:\final\fp_server - working\bin\Debug\net8.0-windows\appsettings.json
+B:\final\fp_server - working\bin\Debug\net8.0-windows\fp_server.staticwebassets.endpoints.json
+B:\final\fp_server - working\bin\Debug\net8.0-windows\fp_server.staticwebassets.runtime.json
+B:\final\fp_server - working\bin\Debug\net8.0-windows\fp_server.exe
+B:\final\fp_server - working\bin\Debug\net8.0-windows\sgfpamx.dll
+B:\final\fp_server - working\bin\Debug\net8.0-windows\sgfplib.dll
+B:\final\fp_server - working\bin\Debug\net8.0-windows\sgwsqlib.dll
+B:\final\fp_server - working\bin\Debug\net8.0-windows\fp_server.deps.json
+B:\final\fp_server - working\bin\Debug\net8.0-windows\fp_server.runtimeconfig.json
+B:\final\fp_server - working\bin\Debug\net8.0-windows\fp_server.dll
+B:\final\fp_server - working\bin\Debug\net8.0-windows\fp_server.pdb
+B:\final\fp_server - working\bin\Debug\net8.0-windows\Microsoft.AspNetCore.OpenApi.dll
+B:\final\fp_server - working\bin\Debug\net8.0-windows\Microsoft.OpenApi.dll
+B:\final\fp_server - working\bin\Debug\net8.0-windows\Microsoft.Win32.SystemEvents.dll
+B:\final\fp_server - working\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.Swagger.dll
+B:\final\fp_server - working\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerGen.dll
+B:\final\fp_server - working\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerUI.dll
+B:\final\fp_server - working\bin\Debug\net8.0-windows\System.Drawing.Common.dll
+B:\final\fp_server - working\bin\Debug\net8.0-windows\System.Private.Windows.Core.dll
+B:\final\fp_server - working\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+B:\final\fp_server - working\bin\Debug\net8.0-windows\SecuGen.FDxSDKPro.DotNet.Windows.dll
+B:\final\fp_server - working\obj\Debug\net8.0-windows\fp_server.csproj.AssemblyReference.cache
+B:\final\fp_server - working\obj\Debug\net8.0-windows\rpswa.dswa.cache.json
+B:\final\fp_server - working\obj\Debug\net8.0-windows\fp_server.GeneratedMSBuildEditorConfig.editorconfig
+B:\final\fp_server - working\obj\Debug\net8.0-windows\fp_server.AssemblyInfoInputs.cache
+B:\final\fp_server - working\obj\Debug\net8.0-windows\fp_server.AssemblyInfo.cs
+B:\final\fp_server - working\obj\Debug\net8.0-windows\fp_server.csproj.CoreCompileInputs.cache
+B:\final\fp_server - working\obj\Debug\net8.0-windows\fp_server.MvcApplicationPartsAssemblyInfo.cs
+B:\final\fp_server - working\obj\Debug\net8.0-windows\fp_server.MvcApplicationPartsAssemblyInfo.cache
+B:\final\fp_server - working\obj\Debug\net8.0-windows\rjimswa.dswa.cache.json
+B:\final\fp_server - working\obj\Debug\net8.0-windows\rjsmrazor.dswa.cache.json
+B:\final\fp_server - working\obj\Debug\net8.0-windows\rjsmcshtml.dswa.cache.json
+B:\final\fp_server - working\obj\Debug\net8.0-windows\scopedcss\bundle\fp_server.styles.css
+B:\final\fp_server - working\obj\Debug\net8.0-windows\staticwebassets.build.json
+B:\final\fp_server - working\obj\Debug\net8.0-windows\staticwebassets.build.json.cache
+B:\final\fp_server - working\obj\Debug\net8.0-windows\staticwebassets.development.json
+B:\final\fp_server - working\obj\Debug\net8.0-windows\staticwebassets.build.endpoints.json
+B:\final\fp_server - working\obj\Debug\net8.0-windows\swae.build.ex.cache
+B:\final\fp_server - working\obj\Debug\net8.0-windows\fp_server.csproj.Up2Date
+B:\final\fp_server - working\obj\Debug\net8.0-windows\fp_server.dll
+B:\final\fp_server - working\obj\Debug\net8.0-windows\refint\fp_server.dll
+B:\final\fp_server - working\obj\Debug\net8.0-windows\fp_server.pdb
+B:\final\fp_server - working\obj\Debug\net8.0-windows\fp_server.genruntimeconfig.cache
+B:\final\fp_server - working\obj\Debug\net8.0-windows\ref\fp_server.dll
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\appsettings.Development.json
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\appsettings.json
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\fp_server.staticwebassets.endpoints.json
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\fp_server.staticwebassets.runtime.json
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\fp_server.exe
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\sgfpamx.dll
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\sgfplib.dll
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\sgwsqlib.dll
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\fp_server.deps.json
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\fp_server.runtimeconfig.json
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\fp_server.dll
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\fp_server.pdb
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\Microsoft.AspNetCore.OpenApi.dll
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\Microsoft.OpenApi.dll
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\Microsoft.Win32.SystemEvents.dll
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.Swagger.dll
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerGen.dll
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\Swashbuckle.AspNetCore.SwaggerUI.dll
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\System.Drawing.Common.dll
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\System.Private.Windows.Core.dll
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+B:\final2\fp_server - working\bin\Debug\net8.0-windows\SecuGen.FDxSDKPro.DotNet.Windows.dll
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\fp_server.csproj.AssemblyReference.cache
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\rpswa.dswa.cache.json
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\fp_server.GeneratedMSBuildEditorConfig.editorconfig
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\fp_server.AssemblyInfoInputs.cache
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\fp_server.AssemblyInfo.cs
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\fp_server.csproj.CoreCompileInputs.cache
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\fp_server.MvcApplicationPartsAssemblyInfo.cs
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\fp_server.MvcApplicationPartsAssemblyInfo.cache
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\rjimswa.dswa.cache.json
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\rjsmrazor.dswa.cache.json
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\rjsmcshtml.dswa.cache.json
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\scopedcss\bundle\fp_server.styles.css
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\staticwebassets.build.json
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\staticwebassets.build.json.cache
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\staticwebassets.development.json
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\staticwebassets.build.endpoints.json
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\swae.build.ex.cache
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\fp_server.csproj.Up2Date
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\fp_server.dll
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\refint\fp_server.dll
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\fp_server.pdb
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\fp_server.genruntimeconfig.cache
+B:\final2\fp_server - working\obj\Debug\net8.0-windows\ref\fp_server.dll

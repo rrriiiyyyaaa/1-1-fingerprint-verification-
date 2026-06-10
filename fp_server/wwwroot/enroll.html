@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Fingerprint Enrollment</title>
+
+    <style>
+
+        body{
+            font-family: Arial;
+            text-align:center;
+            margin-top:80px;
+        }
+
+        input{
+            padding:10px;
+            width:220px;
+            font-size:16px;
+        }
+
+        button{
+            padding:10px 20px;
+            font-size:16px;
+            cursor:pointer;
+            margin-top:20px;
+        }
+
+        #status{
+            margin-top:25px;
+            font-size:22px;
+            font-weight:bold;
+        }
+
+        #count{
+            margin-top:15px;
+            font-size:20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1>Fingerprint Enrollment</h1>
+
+<input
+    id="fingerID"
+    placeholder="Enter User ID"
+/>
+
+<br><br>
+
+<button id="enrollBtn">
+    Start Enrollment
+</button>
+
+<div id="count">
+    Scans: 0 / 6
+</div>
+
+<p id="status"></p>
+
+<script>
+
+let currentScan = 0;
+
+async function enrollFinger(id)
+{
+    let status =
+        document.getElementById("status");
+
+    let count =
+        document.getElementById("count");
+
+    while(currentScan < 6)
+    {
+        status.style.color = "black";
+
+        status.innerText =
+            `Place finger for scan ${currentScan + 1}/6`;
+
+        try {
+
+            let response =
+                await fetch(`/capture?FingerID=${id}`);
+
+            let data =
+                await response.json();
+
+            console.log(data);
+
+            // failed scan
+            if(data.success === false)
+            {
+                status.style.color = "red";
+
+                status.innerText =
+                    data.message;
+
+                continue;
+            }
+
+            currentScan++;
+
+            count.innerText =
+                `Scans: ${currentScan} / 6`;
+
+            status.style.color = "green";
+
+            status.innerText =
+                `Scan ${currentScan}/6 enrolled successfully`;
+
+        }
+        catch(err)
+        {
+            console.log(err);
+
+            status.style.color = "red";
+
+            status.innerText =
+                "Enrollment failed";
+        }
+    }
+
+    status.style.color = "blue";
+
+    status.innerText =
+        "Enrollment completed successfully";
+
+    document
+        .getElementById("enrollBtn")
+        .disabled = true;
+}
+
+document
+.getElementById("enrollBtn")
+.addEventListener("click", async () => {
+
+    let id =
+        document.getElementById("fingerID").value;
+
+    if(!id)
+    {
+        alert("Enter User ID");
+        return;
+    }
+
+    document
+        .getElementById("enrollBtn")
+        .disabled = true;
+
+    currentScan = 0;
+
+    await enrollFinger(id);
+
+});
+
+</script>
+
+</body>
+
+</html>

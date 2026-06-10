@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "RhYwIiU7c6bBRrpTgFgnLzG4iF6COk8rHHfYuo9q8XA=",
+  "Source": "fp_server",
+  "BasePath": "_content/fp_server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "fp_server\\wwwroot",
+      "Source": "fp_server",
+      "ContentRoot": "D:\\Development\\csharp_workspace\\fp_server\\wwwroot\\",
+      "BasePath": "_content/fp_server",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Development\\csharp_workspace\\fp_server\\wwwroot\\index.html",
+      "SourceId": "fp_server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Development\\csharp_workspace\\fp_server\\wwwroot\\",
+      "BasePath": "_content/fp_server",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
