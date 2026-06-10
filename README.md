@@ -63,7 +63,7 @@ graph LR
 
 ---
 
-### 2. `Group_type_A/fixed-length-fingerprint-extractors/` — Python AI Backend
+### 2. `Group_type_A/FineTuned_model/` — Python AI Backend
 
 | Aspect | Detail |
 |--------|--------|
@@ -72,13 +72,13 @@ graph LR
 | **ML Model** | DeepPrint (Texture + Minutiae branches) |
 | **Embedding Size** | 512 dimensions (256 texture + 256 minutiae) |
 
-**Key file:** [app.py](./Group_type_A/fixed-length-fingerprint-extractors/app.py)
+**Key file:** [app.py](./Group_type_A/FineTuned_model/app.py)
 
-This is based on the **[flx](./Group_type_A/fixed-length-fingerprint-extractors/README.md)** research package — a refactored codebase from the BIOSIG 2023 paper on fixed-length fingerprint representations using DeepPrint.
+This is based on the **[flx](./Group_type_A/FineTuned_model/README.md)** research package — a refactored codebase from the BIOSIG 2023 paper on fixed-length fingerprint representations using DeepPrint.
 
 #### DeepPrint Model
 
-The model architecture is defined in [deep_print_arch.py](./Group_type_A/fixed-length-fingerprint-extractors/flx/models/deep_print_arch.py):
+The model architecture is defined in [deep_print_arch.py](./Group_type_A/FineTuned_model/flx/models/deep_print_arch.py):
 
 - **InceptionV4 backbone** for feature extraction
 - **Texture branch** → 256-dim embedding
@@ -147,9 +147,9 @@ sequenceDiagram
 | Landing | [index.html](./fp_server/wwwroot/index.html) | Dark-themed single-capture page (C# server's static files) |
 | Enrollment | [enroll.html](./fp_server/wwwroot/enroll.html) | 6-scan enrollment loop (C# server) |
 | Verify | [verify.html](./fp_server/wwwroot/verify.html) | Capture & verify (uses [app.js](./fp_server/wwwroot/app.js)) |
-| Python Home | Inline in [app.py](./Group_type_A/fixed-length-fingerprint-extractors/app.py#L271-L318) | Landing page for FastAPI server |
-| Python Enroll | [enroll.html](./Group_type_A/fixed-length-fingerprint-extractors/templates/enroll.html) | Template for Python enrollment |
-| Python Verify | [verify.html](./Group_type_A/fixed-length-fingerprint-extractors/templates/verify.html) | Template for Python verification |
+| Python Home | Inline in [app.py](./Group_type_A/FineTuned_model/app.py#L271-L318) | Landing page for FastAPI server |
+| Python Enroll | [enroll.html](./Group_type_A/FineTuned_model/templates/enroll.html) | Template for Python enrollment |
+| Python Verify | [verify.html](./Group_type_A/FineTuned_model/templates/verify.html) | Template for Python verification |
 
 ---
 
