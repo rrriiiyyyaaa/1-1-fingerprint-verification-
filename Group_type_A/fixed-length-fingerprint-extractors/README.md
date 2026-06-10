@@ -1,8 +1,6 @@
 # flx: Fixed-length fingerprint representation extractor
 
-Refactored code used in the paper "Benchmarking fixed-length Fingerprint Representations across different Embedding Sizes and Sensor Types" (BIOSIG 2023, Rohwedder et al.). A summary of the paper can be found at the end of this README.
-
-It contains an implementation of [DeepPrint](https://arxiv.org/abs/1909.09901), a Deep Learning based fixed-length Fingerprint Representation extractor, and various experiments with this architecture.
+It contains an implementation of [DeepPrint](https://arxiv.org/abs/1909.09901), a Deep Learning based fixed-length Fingerprint Representation extractor. The fine-tuned model checkpoints used for this system can be provided upon request.
 
 Using the `flx` package
 ------------
@@ -19,11 +17,6 @@ The package requires Python 3.9 or higher. Other dependencies are listed in the 
 
 You can import modules from the `flx` package in your own scripts and use them to train models, generate embeddings and run benchmarks.
 
-To learn how to add your own dataset to the package, see the [dataset tutorial notebook](notebooks/dataset_tutorial.ipynb).
-
-To learn how to train a variant of the DeepPrint model on a small example dataset, see the [training example notebook](notebooks/model_training_tutorial.ipynb).
-
-To learn how to extract embeddings from a dataset using a trained model, see the [embedding extraction tutorial notebook](notebooks/embedding_extraction_tutorial.ipynb).
 
 ### Pre-trained model
 
@@ -156,20 +149,4 @@ The impact of pose alignment on the performance of the DeepPrint model was estim
 
 ![Results for varying poses](figures/pose-alignment-results.png)
 
-### Citation
-
-If you use this code in your research, please cite the following paper:
-
-```{bibtex}
-@inproceedings{
-    Rohwedder-FixedLengthFingerprintDNN-BIOSIG-2023,
-    author = {T. Rohwedder and D. Osorio-Roig and C. Rathgeb and C. Busch},
-    booktitle = {Intl. Conf. of the Biometrics Special Interest Group ({BIOSIG})},
-    keywords = {Fingerprint recognition, computational workload reduction},
-    month = {September},
-    publisher = {IEEE},
-    title = {Benchmarking fixed-length Fingerprint Representations across different Embedding Sizes and Sensor Types},
-    year = {2023}
-}
-```
 
