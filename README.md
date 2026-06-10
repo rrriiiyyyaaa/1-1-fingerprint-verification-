@@ -54,7 +54,7 @@ graph LR
 - Exposes a single **`GET /capture`** endpoint that:
   1. Waits up to 3 seconds for a finger to be placed on the scanner
   2. Performs a **quality check** (rejects quality < 60)
-  3. Converts the raw grayscale buffer to a **PNG bitmap**
+  3. Converts the raw grayscale buffer to a **TIFF bitmap**
   4. Returns the image as a **base64-encoded string** along with quality score
 - Serves static frontend files from `wwwroot/`
 - Auto-opens `enroll.html` in the browser on startup
@@ -103,7 +103,7 @@ sequenceDiagram
 
     User->>FastAPI: GET /api/enroll?user_id=X&sample_no=1
     FastAPI->>CSharp: GET /capture
-    CSharp-->>FastAPI: base64 PNG image + quality
+    CSharp-->>FastAPI: base64 TIFF image + quality
     FastAPI->>Model: Extract 512-dim embedding
     Model-->>FastAPI: Embedding vector
     FastAPI->>FastAPI: Save to temp/{hash}/sample_1.npy
@@ -113,9 +113,7 @@ sequenceDiagram
 ```
 
 - Requires **6 fingerprint scans** per user
-- Embeddings stored as `.npy` files in `temp/` during enrollment, moved to `database/` on completion
-- User IDs are **SHA-256 hashed** for folder names
-- Currently **1 enrolled user** in the database
+- It creates a `database/` folder which stores all 6 `.npy` embedding samples with the user ID hashed.
 
 ### Verification Flow (`/api/verify`)
 
@@ -129,7 +127,7 @@ sequenceDiagram
     User->>FastAPI: GET /api/verify?user_id=X
     FastAPI->>FastAPI: Load 6 stored embeddings
     FastAPI->>CSharp: GET /capture
-    CSharp-->>FastAPI: base64 PNG image
+    CSharp-->>FastAPI: base64 TIFF image
     FastAPI->>Model: Extract live 512-dim embedding
     Model-->>FastAPI: Live embedding
     FastAPI->>FastAPI: Cosine similarity vs all 6 stored

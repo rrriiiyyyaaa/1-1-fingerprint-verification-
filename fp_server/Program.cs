@@ -168,7 +168,7 @@ app.MapGet("/capture", () =>
 
         bmp.UnlockBits(bmpData);
 
-        // convert to PNG memory
+        // convert to TIFF memory
         using Bitmap cloneBmp =
             bmp.Clone(
                 new Rectangle(
@@ -183,7 +183,7 @@ app.MapGet("/capture", () =>
         using MemoryStream ms =
             new MemoryStream();
 
-        cloneBmp.Save(ms, ImageFormat.Png);
+        cloneBmp.Save(ms, ImageFormat.Tiff);
 
         byte[] imageBytes = ms.ToArray();
 
