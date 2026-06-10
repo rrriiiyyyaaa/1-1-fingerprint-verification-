@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Fingerprint Enrollment</title>
+
+    <style>
+
+        body{
+            font-family: Arial;
+            text-align:center;
+            margin-top:60px;
+            background:#f5f5f5;
+        }
+
+        h1{
+            margin-bottom:30px;
+        }
+
+        input{
+            padding:12px;
+            width:240px;
+            font-size:16px;
+        }
+
+        button{
+            padding:12px 20px;
+            font-size:16px;
+            cursor:pointer;
+            margin-top:20px;
+            width:280px;
+        }
+
+        button:disabled{
+            opacity:0.5;
+            cursor:not-allowed;
+        }
+
+        #status{
+            margin-top:30px;
+            font-size:22px;
+            font-weight:bold;
+        }
+
+        #count{
+            margin-top:15px;
+            font-size:20px;
+        }
+
+        #quality{
+            margin-top:10px;
+            font-size:18px;
+            color:#444;
+        }
+
+        #hint{
+            margin-top:10px;
+            font-size:16px;
+            color:#888;
+        }
+
+        .success{
+            color:green;
+        }
+
+        .error{
+            color:red;
+        }
+
+        .info{
+            color:#0066cc;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1>Fingerprint Enrollment</h1>
+
+<input
+    id="userID"
+    placeholder="Enter User ID"
+/>
+
+<br>
+
+<button id="captureBtn">
+    Capture Sample 1 / 6
+</button>
+
+<div id="count">
+    Samples: 0 / 6
+</div>
+
+<div id="quality">
+    Quality: -
+</div>
+
+<div id="hint"></div>
+
+<div id="status">
+    Enter User ID and press the button to capture each sample.
+</div>
+
+<script>
+
+let currentSample = 1;
+let enrollmentStarted = false;
+
+const TOTAL_SAMPLES = 6;
+
+const btn     = document.getElementById("captureBtn");
+const status  = document.getElementById("status");
+const count   = document.getElementById("count");
+const quality = document.getElementById("quality");
+const hint    = document.getElementById("hint");
+const userInput = document.getElementById("userID");
+
+function updateButton()
+{
+    if(currentSample > TOTAL_SAMPLES)
+    {
+        btn.innerText = "Enrollment Complete ✅";
+        btn.disabled = true;
+        return;
+    }
+
+    btn.innerText =
+        `Capture Sample ${currentSample} / ${TOTAL_SAMPLES}`;
+
+    btn.disabled = false;
+}
+
+async function captureSample()
+{
+    const userID = userInput.value.trim();
+
+    if(!userID)
+    {
+        alert("Enter User ID");
+        return;
+    }
+
+    if(currentSample > TOTAL_SAMPLES)
+        return;
+
+    // lock UI during capture
+    btn.disabled = true;
+    btn.innerText = "Scanning... 🔄";
+    userInput.disabled = true;
+    hint.innerText = "";
+
+    status.className = "info";
+    status.innerText =
+        `Capturing sample ${currentSample}/${TOTAL_SAMPLES}... keep finger on scanner`;
+
+    try
+    {
+        const response =
+            await fetch(
+                `/api/enroll?user_id=${userID}&sample_no=${currentSample}`
+            );
+
+        const data =
+            await response.json();
+
+        console.log(data);
+
+        // timeout / bad quality / error
+        if(!data.success)
+        {
+            status.className = "error";
+            status.innerText = data.message;
+            hint.innerText = "Try again — press the button when ready.";
+
+            updateButton();
+            return;
+        }
+
+        // success
+        quality.innerText =
+            `Quality: ${data.quality}`;
+
+        status.className = "success";
+        status.innerText =
+            `✅ Sample ${currentSample} enrolled successfully`;
+
+        count.innerText =
+            `Samples: ${currentSample} / ${TOTAL_SAMPLES}`;
+
+        currentSample++;
+
+        // all done
+        if(currentSample > TOTAL_SAMPLES)
+        {
+            status.innerText =
+                "🎉 Enrollment completed successfully!";
+
+            hint.innerText = "";
+            updateButton();
+
+            // reset after 5 seconds
+            setTimeout(() =>
+            {
+                currentSample = 1;
+                enrollmentStarted = false;
+                userInput.value = "";
+                userInput.disabled = false;
+
+                count.innerText   = "Samples: 0 / 6";
+                quality.innerText = "Quality: -";
+                hint.innerText    = "";
+
+                status.className  = "info";
+                status.innerText  =
+                    "Enter User ID and press the button to capture each sample.";
+
+                updateButton();
+            }, 5000);
+
+            return;
+        }
+
+        // prompt for next sample
+        hint.innerText =
+            "👆 Remove your finger, then place it again and press the button.";
+
+        updateButton();
+    }
+    catch(err)
+    {
+        console.log(err);
+
+        status.className = "error";
+        status.innerText = "Enrollment failed — server error";
+        hint.innerText   = "Try again — press the button when ready.";
+
+        updateButton();
+    }
+}
+
+btn.addEventListener("click", async () =>
+{
+    if(!enrollmentStarted)
+    {
+        enrollmentStarted = true;
+        userInput.disabled = true;
+    }
+
+    await captureSample();
+});
+
+</script>
+
+</body>
+
+</html>

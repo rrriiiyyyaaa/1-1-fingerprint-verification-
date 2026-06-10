@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Fingerprint Verification</title>
+
+    <style>
+
+        body{
+            font-family: Arial;
+            text-align:center;
+            margin-top:60px;
+            background:#f5f5f5;
+        }
+
+        h1{
+            margin-bottom:30px;
+        }
+
+        input{
+            padding:12px;
+            width:240px;
+            font-size:16px;
+        }
+
+        button{
+            padding:12px 20px;
+            font-size:16px;
+            cursor:pointer;
+            margin-top:20px;
+            width:240px;
+        }
+
+        #status{
+            margin-top:30px;
+            font-size:26px;
+            font-weight:bold;
+        }
+
+        #quality{
+            margin-top:15px;
+            font-size:18px;
+        }
+
+        .success{
+            color:green;
+        }
+
+        .error{
+            color:red;
+        }
+
+        .info{
+            color:#0066cc;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1>Fingerprint Verification</h1>
+
+<input
+    id="userID"
+    placeholder="Enter User ID"
+/>
+
+<br>
+
+<button onclick="verifyFingerprint()">
+    Capture & Verify
+</button>
+
+
+<div id="status">
+    Waiting...
+</div>
+
+<script>
+
+async function verifyFingerprint()
+{
+    const userID =
+        document
+        .getElementById("userID")
+        .value
+        .trim();
+
+    const status =
+        document.getElementById("status");
+
+    
+
+    if(!userID)
+    {
+        alert("Enter User ID");
+        return;
+    }
+
+    status.className = "info";
+
+    status.innerText =
+        "Place finger on scanner...";
+
+    try
+    {
+        const response =
+            await fetch(
+                `/api/verify?user_id=${userID}`
+            );
+
+        const data =
+            await response.json();
+
+        console.log(data);
+
+        // backend failure
+        if(!data.success)
+        {
+            status.className = "error";
+
+            status.innerText =
+                data.message;
+
+            return;
+        }
+
+        // success
+        if(data.authenticated)
+        {
+            status.className = "success";
+        }
+        else
+        {
+            status.className = "error";
+        }
+
+        status.innerText =
+            data.message;
+    }
+    catch(err)
+    {
+        console.log(err);
+
+        status.className = "error";
+
+        status.innerText =
+            "Verification failed";
+    }
+}
+
+</script>
+
+</body>
+
+</html>

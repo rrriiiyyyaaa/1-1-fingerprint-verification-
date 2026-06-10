@@ -1,0 +1,9 @@
+models/*.pyt
+database/
+temp/
+*.npy
+*.png
+dpenv/
+__pycache__/
+fingerprint_flx.egg-info/
+tests/
