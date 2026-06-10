@@ -134,7 +134,11 @@ sequenceDiagram
     FastAPI-->>User: {authenticated: true/false, max_score, match_count}
 ```
 
-- Compares live scan against **all 6 enrolled embeddings** using **cosine similarity**
+- Compares live scan against **all 6 enrolled embeddings** using **cosine similarity** (computed as the normalized dot product):
+  ```python
+  def cosine_similarity(a, b):
+      return float(np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b) + 1e-9))
+  ```
 - Threshold: score ≥ **0.75** counts as a match
 - Authentication requires: `match_count >= 4` (majority vote — 4 out of 6 stored samples must match)
 
