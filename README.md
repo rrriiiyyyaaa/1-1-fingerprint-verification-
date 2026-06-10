@@ -59,7 +59,7 @@ graph LR
 - Serves static frontend files from `wwwroot/`
 - Auto-opens `enroll.html` in the browser on startup
 
-**Stored Data:** `CapturedFingerprints/` — locally contains **~820 TIFF fingerprint images** organized by user ID (e.g., `19_1.tiff` through `19_10.tiff`). *Note: This folder is excluded from the GitHub repository to protect user privacy.*
+
 
 ---
 
